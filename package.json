@@ -1,11 +1,11 @@
 {
   "name": "fs-components",
   "description": "A Vue.js project",
-  "version": "1.2.0",
+  "version": "1.7.0",
   "author": "John <634408262@qq.com>",
   "license": "MIT",
   "private": false,
-  "main": "dist/gayhub.js",
+  "main": "dist/github.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
