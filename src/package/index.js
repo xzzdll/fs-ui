@@ -1,8 +1,10 @@
 import github from './github';
+import waterMack from './waterMack';
 // ...如果还有的话继续添加
 
 const components = [
-  github
+  github,
+  waterMack
   // ...如果还有的话继续添加
 ]
 
@@ -20,5 +22,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default {
   install,
   github,
+  waterMack
   // ...如果还有的话继续添加
 }
